@@ -1,10 +1,11 @@
 channels:
   - conda-forge
  dependencies:
-  - python>=3.9
+  - python=3.9
   - gromacs=2024.4
   - jupyterlab
   - matplotlib
+  - mdanalysis
   - mdtraj
   - nglview
-
+  - pandas
